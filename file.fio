@@ -1,0 +1,15 @@
+[global]
+ioengine=${ENG}
+size=100G
+runtime=${RUNTIME}
+direct=1
+iodepth=${IODEPTH}
+exitall
+numjobs=${JOBS}
+bs=${BS}
+rw=${MODE}
+rwmixread=${RATIO}
+group_reporting
+
+[job]
+filename=${FILE}

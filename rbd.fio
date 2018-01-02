@@ -1,0 +1,15 @@
+[global]
+ioengine=${ENG}
+runtime=${RUNTIME}
+direct=1
+iodepth=${IODEPTH}
+exitall
+bs=${BS}
+rw=${MODE}
+rwmixread=${RATIO}
+clientname=admin
+pool=volumes
+group_reporting
+
+[job]
+rbdname=${FILE}
