@@ -11,5 +11,5 @@ rw=${MODE}
 rwmixread=${RATIO}
 group_reporting
 
-[job]
-filename=${FILE}
+[bench]
+;
