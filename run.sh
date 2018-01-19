@@ -28,13 +28,13 @@ test()
     fio_exec randwrite 0 $TYPE $ENG 4k
     sleep 15
 
-    fio_exec randread 0 $TYPE $ENG 4k
+    fio_exec randread 100 $TYPE $ENG 4k
     sleep 15
 
     fio_exec write 0 $TYPE $ENG 128k
     sleep 15
 
-    fio_exec read 0 $TYPE $ENG 128k
+    fio_exec read 100 $TYPE $ENG 128k
     sleep 15
 
     fio_exec randrw 30 $TYPE $ENG 4k
